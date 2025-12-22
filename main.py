@@ -21,7 +21,7 @@ def main(page: ft.Page):
 
     def sad_click(e):
 
-        if e.state == ft.AudioState.PLAYING:
+        if e.state == fta.AudioState.PLAYING:
             meow_sad.pause()
         else:
             meow_sad.resume()
