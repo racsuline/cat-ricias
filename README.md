@@ -22,8 +22,6 @@ For other operating systems (the bad ones) you can just `git clone` this and run
 
 You can fork it, clone it, and do whatever you want with it, but be aware, the code... is super complicated... I can't even understand it myself, and I'm a super pro-pro-programmer level 150. I have an iq of 2 and my mom said that it was I was a weird thing, so I assume I'm superior.
 
-
 plop.
-
 
 ![img](catttttt.png)
