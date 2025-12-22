@@ -1,5 +1,7 @@
 import flet as ft
 
+import flet_audio as fta
+
 def main(page: ft.Page):
     page.title = "Cat-ricias"
     page.theme_mode = ft.ThemeMode.DARK
@@ -33,12 +35,12 @@ def main(page: ft.Page):
     
     texto = ft.Text(f"Caricias: {caricias.value}", size = 24)
 
-    meow_sad = ft.Audio(
+    meow_sad = fta.Audio(
         src="meow_sad.mp3",
         autoplay=True
     )
     
-    yupi = ft.Audio(
+    yupi = fta.Audio(
         src="yupi.mp3",
         on_state_changed = sad_click
     )

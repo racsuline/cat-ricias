@@ -59,6 +59,29 @@ wheels = [
 ]
 
 [[package]]
+name = "cat-ricias"
+version = "1.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "flet-audio" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "flet", extra = ["all"] },
+    { name = "flet-audio" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "flet-audio", specifier = ">=0.1.0" }]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "flet", extras = ["all"], specifier = ">=0.28.3" },
+    { name = "flet-audio", specifier = "==0.1.0" },
+]
+
+[[package]]
 name = "certifi"
 version = "2025.11.12"
 source = { registry = "https://pypi.org/simple" }
@@ -207,6 +230,18 @@ all = [
     { name = "flet-desktop", marker = "sys_platform == 'darwin' or sys_platform == 'win32'" },
     { name = "flet-desktop-light", marker = "sys_platform == 'linux'" },
     { name = "flet-web" },
+]
+
+[[package]]
+name = "flet-audio"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "flet" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5f/88/582ad5a2f01715cfcd9211e8696b028c4897b92ce56676596c50ce4f712a/flet_audio-0.1.0.tar.gz", hash = "sha256:675ed25042c8dd011aad6ae224939e05fd3c1cd7bca5050cdb003e5aec3db83c", size = 16940, upload-time = "2025-01-14T21:59:39.8Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b5/f1/26f45d1caa9178eced6cc5b716bd13a667870140a1a8c2e8a032eaab2271/flet_audio-0.1.0-py3-none-any.whl", hash = "sha256:717e1da0fc1cfc941e9b715abb8e93e6f8cccad0fe48dc90c26dd4ce70bed182", size = 18303, upload-time = "2025-01-14T21:59:37.615Z" },
 ]
 
 [[package]]
@@ -437,21 +472,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec9
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
 ]
-
-[[package]]
-name = "meowclicker"
-version = "0.1.0"
-source = { virtual = "." }
-
-[package.dev-dependencies]
-dev = [
-    { name = "flet", extra = ["all"] },
-]
-
-[package.metadata]
-
-[package.metadata.requires-dev]
-dev = [{ name = "flet", extras = ["all"], specifier = ">=0.28.3" }]
 
 [[package]]
 name = "oauthlib"
