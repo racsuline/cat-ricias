@@ -14,7 +14,7 @@ def main(page: ft.Page):
     def contador(e):
 
         caricias.value = str(int(caricias.value) + 1)
-        texto.value = f"Caricias: {caricias.value}"
+        texto.value = f"Acaracia al pobre gato_meme.png | Caricias: {caricias.value}"
         
         yupi.play()
         page.update()
@@ -33,7 +33,7 @@ def main(page: ft.Page):
         on_click = contador
     )
     
-    texto = ft.Text(f"Caricias: {caricias.value}", size = 24)
+    texto = ft.Text(f"Acaracia al pobre gato_meme.png | Caricias: {caricias.value}", size = 24)
 
     meow_sad = fta.Audio(
         src="meow_sad.mp3",
