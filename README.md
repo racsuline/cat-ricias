@@ -1,3 +1,9 @@
+# Moving!
+
+This repository has been moved to [Codeberg](https://codeberg.org/racsu/Davinci_Re-Solver):
+
+https://codeberg.org/racsu/cat-ricias
+
 ## CAT-RICIAS
 
 Acaricia al gato_meme.png, de lo contrario, seguira sonando música triste, porque él está triste, y tú lo estarás también.
